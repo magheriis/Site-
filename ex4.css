@@ -1,0 +1,72 @@
+form{
+	margin-top:10px;
+	margin-left:350px;
+	size:14px;
+	background-color:#77b5fe ;
+	width:450px;
+	font-family:georgia,"times New Roman",times,serif;
+	padding:15px;
+	border-radius:10px;
+	
+}
+legend{
+	color:white;
+	size:16px;
+	font-weight:bold;
+}
+fieldset{
+	border-style:none;
+}
+label{
+	font-style:italic;
+}
+#adresse{
+	background-color:gray;
+	border:none;
+	font-family:georgia,"times new roman","serif";
+	size:12px;
+	padding:5px;
+	border-radius:10px;
+}
+#codepostal{
+	background-color:##77b5fe;
+	border:none;
+	font-family:georgia,"times new roman","serif";
+	size:12px;
+	padding:5px;
+	border-radius:10px;
+}
+.element{
+	background-color:#77b5fe;
+	border:none;
+	font-family:georgia,"times new roman","serif";
+	size:12px;
+	padding:5px;
+	border-radius:10px;
+}
+li{
+	border:2px solid #e3ebc3;
+	background-color:#b9cf6a;
+	padding:5px;
+	margin-top:2px;
+	border-radius:10px;
+}
+#submit{
+	
+	background-color:#384313;
+	border:none;
+	color:#fffff;
+	font-family:georgia,"times new roman",times,serif;
+	size:18px;
+	box-shadow:0 1px 1px #000000;
+	text-align:center;
+	margin-left:200px;
+	text-transform:uppercase;	
+}
+#submit:hover{
+	background-color:#1e2506;
+	box-shadow:0 1px 1px #c0d576;
+	cursor:grab;
+	
+	
+}

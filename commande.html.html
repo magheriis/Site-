@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>commande</title>
+<link rel="stylesheet" type="text/css" href="ex4.css"/>
+<meta name="" content="">
+</head>
+<body>
+<form>
+  <fieldset>
+    <legend>Votre identité</legend>
+    <ol>
+      <li>
+        <label>Nom</label>
+        <input id=nom name=nom type=text placeholder="Prénom et nom" class="element">
+      </li>
+      <li>
+        <label>Email</label>
+        <input id=email name=email type=email placeholder="exemple@domaine.com" class="element">
+      </li>
+      <li>
+        <label>Téléphone</label>
+        <input id=telephone name=telephone type=tel placeholder="par ex : +3375500000000" class="element">
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <legend>le commande</legend>
+    <ol>
+      <li>
+        <label>quantitue</label>
+        <textarea id="adresse" name="adresse" rows="5" cols="50" class="element"></textarea>
+      </li>
+      <li>
+        <label>catégorie</label>
+        <input id=codepostal name=codepostal type=text>
+      </li>
+      <li>
+        <label>Produite</label>
+        <select name="pays" class="element">
+		<option>iphone</option>
+		<option>samsung</option>
+		<option>oppo</option>
+		<option>huawei</option>
+		</select>
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <legend>type de votre carte bancaire</legend>
+    <ol>
+      <li>
+        <fieldset>
+          <legend>cocher</legend>
+		 <input name=type_de_carte type=radio class="element"><img src="visa.png"/> 
+         <input name=type_de_carte type=radio class="element"><img src="Amex.png"/>
+         <input name=type_de_carte type=radio class="element"><img src="mastercard.png"/>  
+		</fieldset>
+      </li>
+      <li>
+        <label>N° de carte</label>
+        <input id=numero_de_carte name=numero_de_carte type=number class="element">
+      </li>
+     </ol>
+  </fieldset>
+  <fieldset>
+    <a href="félicitation.html"><input type="button" name="submit" id="submit" value="J’achète !" /></a>
+  </fieldset>
+</form>
+</body>
+</html>

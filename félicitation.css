@@ -1,0 +1,13 @@
+body{
+	background-color:orange;
+	
+}
+h3{
+color:white;
+	font-size:22px;
+	font-family: 'East Sea Dokdo', cursive;;	
+	position:absolute;
+	top:40%;
+	left:26%;
+	transform:skew(15deg,15deg);
+}
